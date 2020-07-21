@@ -1,22 +1,23 @@
 {
-  "name": "eslint-config-react-native-wcandillon",
+  "name": "@vellapps/eslint-config",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "ESLint config initially forked from William Candillon, wanted something similar to his I could publish and download for myself.",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js tests/*.tsx --fix",
+    "format-config": "eslint -c index.js index.js --fix",
     "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wcandillon/eslint-config-react-native-wcandillon.git"
+    "url": "https://github.com/vincentvella/eslint-config.git"
   },
-  "author": "William Candillon <wcandillon@gmail.com>",
+  "author": "Vincent Vella <vincevella0@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wcandillon/eslint-config-react-native-wcandillon/issues"
+    "url": "https://github.com/vincentvella/eslint-config/issues"
   },
-  "homepage": "https://github.com/wcandillon/eslint-config-react-native-wcandillon#readme",
+  "homepage": "https://github.com/vincentvella/eslint-config#readme",
   "devDependencies": {
     "eslint": "^7.3.1",
     "semantic-release": "^17.0.7",
