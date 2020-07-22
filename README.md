@@ -7,13 +7,13 @@ My eslint configuration for React Native. Starting `v2`, this plugin requires es
 ## Usage
 
 ```
-yarn add eslint-config-react-native-wcandillon --dev
+yarn add @vellapps/eslint-config --dev
 ```
 
 In `.eslintrc`:
 
 ```json
 { 
-  "extends": "react-native-wcandillon", 
+  "extends": "@vellapps/eslint-config", 
 } 
 ```
